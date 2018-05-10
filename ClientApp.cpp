@@ -18,16 +18,16 @@
 #include <QDebug>
 #include <SongDefine.h>
 #include <QThreadPool>
-#include <QFontDatabase>
-#include <QFont>
+#include <QF458atabase>
+//#include <QFont>
 
 #define CONFI_FileName	"ktv_client.conf"
-#define CONFI_Header	"ktvClientConfig"
+
 
 using namespace xgKtv;
 
 extern void fnMsgOutput(QtMsgType, const QMessageLogContext&, const QString&);
-
+//////////////////
 // 构造函数
 CClientApp::CClientApp(int &argc, char **argv)
 	: QGuiApplication(argc, argv)
